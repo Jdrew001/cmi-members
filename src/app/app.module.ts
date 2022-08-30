@@ -17,6 +17,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MembersComponent } from './members/members.component';
 import { AngularFireAuthGuard } from '@angular/fire/compat/auth-guard';
 import { AngularFireModule } from '@angular/fire/compat';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { AngularFireModule } from '@angular/fire/compat';
     provideFunctions(() => getFunctions()),
     CoreModule,
     NgbModule,
-    CoreModule
+    CoreModule,
+    SharedModule
   ],
   providers: [
     ScreenTrackingService,
