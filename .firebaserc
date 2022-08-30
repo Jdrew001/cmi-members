@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "cmi-members": {
+      "hosting": {
+        "cmi-members": [
+          "cmi-members"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "cmi-members"
+  }
+}
